@@ -1,0 +1,1 @@
+Android Studio can generate/use the Gradle wrapper during project sync. Open the project folder in Android Studio and allow Gradle to sync.

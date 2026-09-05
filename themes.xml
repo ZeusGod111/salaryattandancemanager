@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.SalaryAttendance" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#008F6B</item>
+        <item name="android:navigationBarColor">#F7FAFC</item>
+        <item name="android:statusBarColor">#008F6B</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
