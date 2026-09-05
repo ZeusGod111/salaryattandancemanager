@@ -34,11 +34,11 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build APK
-        working-directory: project
+        working-directory: project/SalaryAttendanceManager
         run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: SalaryAttendanceManager-APK
-          path: project/app/build/outputs/apk/debug/app-debug.apk
+          path: project/SalaryAttendanceManager/app/build/outputs/apk/debug/app-debug.apk
